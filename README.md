@@ -121,7 +121,7 @@ POST /api/status
 ## Negative Response:
 ```
 {
-    "success": true,
+    "success": false,
     "rc": "14",
     "msg": "user atau pasword salah"
 }
