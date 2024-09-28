@@ -1,5 +1,6 @@
-# api-h2h
-## Transaksi Request
+# IRSX Api-H2H
+## Transaksi
+### Trx Request
 POST /api/h2h
 ```
 {
@@ -11,6 +12,19 @@ POST /api/h2h
     "kodeproduk":"S10",
     "tujuan":"081234567890",
     "jenis":1
+}
+```
+### Trx Response
+```
+{
+    "success": true,
+    "tujuan": "08124125125",
+    "kode": "S10",
+    "reffid": "1124",
+    "rc": "68",
+    "sn": "",
+    "status": 0,
+    "msg": "Under proses"
 }
 ```
 ## Cek Balance Request
